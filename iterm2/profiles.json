@@ -11,7 +11,7 @@
       },
       "Guid" : "525C9AF1-810A-4854-9393-5F7FF80F1F70",
       "Name" : "EPM \/ EPS",
-      "Title" : 4,
+      "Title" : 16,
       "Use Tab Color" : true,
       "Dynamic Profile Parent Name" : "Default",
       "Custom Command" : "Yes"
@@ -28,14 +28,14 @@
       "Guid" : "94EB0BB6-3D4A-4438-A5D8-4B576BFA2C47",
       "Custom Command" : "Yes",
       "Name" : "Slam Dunk Software",
-      "Title" : 4,
+      "Title" : 16,
       "Use Tab Color" : true,
       "Dynamic Profile Parent Name" : "Default"
     },
     {
       "Command" : "\/bin\/zsh -c '\/usr\/local\/bin\/tmux new-session -A -s general'",
       "Name" : "General",
-      "Title" : 4,
+      "Title" : 16,
       "Dynamic Profile Parent Name" : "Default",
       "Guid" : "3B0E2681-F85F-423C-91B4-9A8CEE012EF3",
       "Custom Command" : "Yes",
