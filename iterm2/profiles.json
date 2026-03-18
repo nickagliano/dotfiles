@@ -1,0 +1,33 @@
+{
+  "Profiles": [
+    {
+      "Name": "EPM / EPS",
+      "Guid": "525C9AF1-810A-4854-9393-5F7FF80F1F70",
+      "Dynamic Profile Parent Name": "Default",
+      "Tab Color": {
+        "Red Component": 1.0,
+        "Green Component": 0.75,
+        "Blue Component": 0.0,
+        "Alpha Component": 1.0
+      },
+      "Use Tab Color": true
+    },
+    {
+      "Name": "Slam Dunk Software",
+      "Guid": "94EB0BB6-3D4A-4438-A5D8-4B576BFA2C47",
+      "Dynamic Profile Parent Name": "Default",
+      "Tab Color": {
+        "Red Component": 1.0,
+        "Green Component": 0.3,
+        "Blue Component": 0.0,
+        "Alpha Component": 1.0
+      },
+      "Use Tab Color": true
+    },
+    {
+      "Name": "General",
+      "Guid": "3B0E2681-F85F-423C-91B4-9A8CEE012EF3",
+      "Dynamic Profile Parent Name": "Default"
+    }
+  ]
+}
