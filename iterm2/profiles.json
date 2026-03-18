@@ -10,7 +10,9 @@
         "Blue Component": 0.0,
         "Alpha Component": 1.0
       },
-      "Use Tab Color": true
+      "Use Tab Color": true,
+      "Custom Command": "Yes",
+      "Command": "tmux -CC new-session -A -s eps"
     },
     {
       "Name": "Slam Dunk Software",
@@ -22,12 +24,16 @@
         "Blue Component": 0.0,
         "Alpha Component": 1.0
       },
-      "Use Tab Color": true
+      "Use Tab Color": true,
+      "Custom Command": "Yes",
+      "Command": "tmux -CC new-session -A -s sds"
     },
     {
       "Name": "General",
       "Guid": "3B0E2681-F85F-423C-91B4-9A8CEE012EF3",
-      "Dynamic Profile Parent Name": "Default"
+      "Dynamic Profile Parent Name": "Default",
+      "Custom Command": "Yes",
+      "Command": "tmux -CC new-session -A -s general"
     }
   ]
 }
