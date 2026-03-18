@@ -1,39 +1,45 @@
 {
-  "Profiles": [
+  "Profiles" : [
     {
-      "Name": "EPM / EPS",
-      "Guid": "525C9AF1-810A-4854-9393-5F7FF80F1F70",
-      "Dynamic Profile Parent Name": "Default",
-      "Tab Color": {
-        "Red Component": 1.0,
-        "Green Component": 0.75,
-        "Blue Component": 0.0,
-        "Alpha Component": 1.0
+      "Rewritable" : true,
+      "Command" : "\/bin\/zsh -c '\/usr\/local\/bin\/tmux new-session -A -s eps'",
+      "Tab Color" : {
+        "Red Component" : 1,
+        "Blue Component" : 0,
+        "Alpha Component" : 1,
+        "Green Component" : 0.75
       },
-      "Use Tab Color": true,
-      "Custom Command": "Yes",
-      "Command": "/bin/zsh -c '/usr/local/bin/tmux new-session -A -s eps'"
+      "Guid" : "525C9AF1-810A-4854-9393-5F7FF80F1F70",
+      "Name" : "EPM \/ EPS",
+      "Title" : 4,
+      "Use Tab Color" : true,
+      "Dynamic Profile Parent Name" : "Default",
+      "Custom Command" : "Yes"
     },
     {
-      "Name": "Slam Dunk Software",
-      "Guid": "94EB0BB6-3D4A-4438-A5D8-4B576BFA2C47",
-      "Dynamic Profile Parent Name": "Default",
-      "Tab Color": {
-        "Red Component": 1.0,
-        "Green Component": 0.3,
-        "Blue Component": 0.0,
-        "Alpha Component": 1.0
+      "Rewritable" : true,
+      "Command" : "\/bin\/zsh -c '\/usr\/local\/bin\/tmux new-session -A -s sds'",
+      "Tab Color" : {
+        "Red Component" : 1,
+        "Blue Component" : 0,
+        "Alpha Component" : 1,
+        "Green Component" : 0.29999999999999999
       },
-      "Use Tab Color": true,
-      "Custom Command": "Yes",
-      "Command": "/bin/zsh -c '/usr/local/bin/tmux new-session -A -s sds'"
+      "Guid" : "94EB0BB6-3D4A-4438-A5D8-4B576BFA2C47",
+      "Custom Command" : "Yes",
+      "Name" : "Slam Dunk Software",
+      "Title" : 4,
+      "Use Tab Color" : true,
+      "Dynamic Profile Parent Name" : "Default"
     },
     {
-      "Name": "General",
-      "Guid": "3B0E2681-F85F-423C-91B4-9A8CEE012EF3",
-      "Dynamic Profile Parent Name": "Default",
-      "Custom Command": "Yes",
-      "Command": "/bin/zsh -c '/usr/local/bin/tmux new-session -A -s general'"
+      "Command" : "\/bin\/zsh -c '\/usr\/local\/bin\/tmux new-session -A -s general'",
+      "Name" : "General",
+      "Title" : 4,
+      "Dynamic Profile Parent Name" : "Default",
+      "Guid" : "3B0E2681-F85F-423C-91B4-9A8CEE012EF3",
+      "Custom Command" : "Yes",
+      "Rewritable" : true
     }
   ]
 }
